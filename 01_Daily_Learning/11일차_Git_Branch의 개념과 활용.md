@@ -1,5 +1,5 @@
-# [LG CNS 7기] 2주차 Day4 TIL + Git
-Reset/Revert 실습 및 Branch 개념과 핵심 명령어 정리
+# [LG CNS 7기] 2주차 Day4 TIL
+Git Reset/Revert 실습 및 Branch 개념과 핵심 명령어 정리
 
 ## 📌 오늘의 학습 키워드
 - `git reset --hard`
