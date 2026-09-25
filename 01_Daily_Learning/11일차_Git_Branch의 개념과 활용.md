@@ -66,10 +66,10 @@ $ git reset --hard
 실제 실습 화면
 
 VSCode의 Git Bash
+
 <img width="561" height="631" alt="스크린샷 2026-09-24 184458" src="https://github.com/user-attachments/assets/2acf3c98-9e52-4f1f-9b61-04706c08efab" />
 
 <img width="599" height="199" alt="스크린샷 2026-09-24 184507" src="https://github.com/user-attachments/assets/0f495f42-c9c4-44b1-86ff-95b35377a50d" />
-
 
 ---
 
