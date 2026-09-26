@@ -81,3 +81,6 @@ VSCode의 Git Bash
 ### 2. 내일을 위한 다짐 & 계획
 - **개념 체화**: `git switch -c` 명령어로 기능 개발용 브랜치를 직접 만들어 파일 수정 후 커밋해 보고, `master` 브랜치와 비교 분석하기
 - **내일의 학습 계획**: Git 5강 - Merge와 충돌 해결
+
+---
+#LGCNS #LGCNS7기 #LGCNS7기TIL #내일배움카드 #K-DT
