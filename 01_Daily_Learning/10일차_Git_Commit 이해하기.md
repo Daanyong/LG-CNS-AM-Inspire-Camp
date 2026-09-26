@@ -83,3 +83,6 @@ Source Tree로 확인하는 장면
 ### 2. 내일을 위한 다짐 & 계획
 - **개념 체화**: 오늘 실습한 저장소에서 `git reset`과 `git revert` 명령어를 직접 테스트해 보고 SourceTree GUI 화면에서 커밋 그래프가 어떻게 변화하는지 눈으로 비교 검증하기
 - **내일의 학습 계획**: Git 4강 - Branch의 개념과 활용 수강
+
+---
+#LGCNS #LGCNS7기 #LGCNS7기TIL #내일배움카드 #K-DT
