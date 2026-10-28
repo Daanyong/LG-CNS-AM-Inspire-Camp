@@ -1,0 +1,50 @@
+# [Day 2] LG CNS AM Inspire Camp 7기 TIL
+작성일: 2026.10.28 (수) | 과목: AI 서비스 개발을 위한 프론트엔드
+
+## 오늘 학습한 주제
+- React의 전반적인 흐름과 개념들
+
+## 오늘 배운 것 – 나만의 언어로 설명
+- 컴포넌트화는 반복되는 UI 블록을 붕어빵 틀처럼 만들어 언제든 재사용 가능하게 만드는 작업이다.
+- App.tsx에 HTML 태그와 SVG 아이콘 4개가 직접 적혀 있던 하드코딩 구조를 `SocialItem`, `DiscordIcon` 등의 독립 컴포넌트로 분리하고 `props`(size, color 등)를 전달받아 유연하게 제어하도록 개선했다.
+- UI와 데이터를 분리하여 데이터 배열을 `map()` 함수로 순회하는 동적 렌더링 패턴을 익혔다. 이는 향후 백엔드 DB나 API에서 받아온 데이터를 화면에 뿌려주는 프론트엔드의 핵심 기본 구조다.
+- AI 코딩 툴을 활용할 때도 이렇게 잘 정제된 기준 코드가 명확히 잡혀 있어야 고품질의 코드를 생성해 낸다는 것을 배웠다.
+
+## 오늘 직접 작성한 코드
+```tsx
+// 1. 데이터 배열 정의
+const socialData = [
+  { id: 1, name: 'Discord', link: 'https://discord.com', Icon: DiscordIcon },
+  { id: 2, name: 'GitHub', link: 'https://github.com', Icon: GithubIcon },
+];
+
+// 2. map() 기법을 활용한 동적 컴포넌트 렌더링
+export default function App() {
+  return (
+    <div className="social-container">
+      {socialData.map((item) => (
+        <SocialItem key={item.id} name={item.name} link={item.link}>
+          <item.Icon size={24} color="#333" />
+        </SocialItem>
+      ))}
+    </div>
+  );
+}
+```
+
+## 어려웠던 점 & 해결 과정
+- 문제: 빠르게 진행되는 강의와 빠르게 바뀌는 코드 화면, 방대한 정보들로 인해 집중도 하락 및 따라가기가 벅찼음
+- 시도: 코드 자체에 집착하기보다 각 내용을 이해를 우선시하고 집중함
+- 해결: 특히 컴포넌트와 데이터가 어떻게 연결되는지 전체 흐름을 이해하는 데 집중함.
+- 교훈: 따라가기가 힘들다면 빠르게 집중할 포인트를 하나 잡는 것이 중요함.
+
+## AI와 함께한 부분 (선택)
+- 물어본 것: 강사님 git clone / push 과정에서 경로 관련 이슈
+- AI 답 중 검증한 것: git 명령어 중 과한 것이 있는지 검증
+- AI가 틀렸던 것: 
+
+## 내일 계획 & 아직 모르는 것
+- 내일 이어서 할 내용: React 코드와 Next.js 코드 비교
+- 아직 흐릿한 것: 전반적으로 아직 이해도가 높지 않음
+
+#LGCNS #LGCNS7기 #LGCNS7기TIL #내일배움카드 #K-DT
