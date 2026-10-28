@@ -10,27 +10,6 @@
 - UI와 데이터를 분리하여 데이터 배열을 `map()` 함수로 순회하는 동적 렌더링 패턴을 익혔다. 이는 향후 백엔드 DB나 API에서 받아온 데이터를 화면에 뿌려주는 프론트엔드의 핵심 기본 구조다.
 - AI 코딩 툴을 활용할 때도 이렇게 잘 정제된 기준 코드가 명확히 잡혀 있어야 고품질의 코드를 생성해 낸다는 것을 배웠다.
 
-## 오늘 직접 작성한 코드
-```tsx
-// 1. 데이터 배열 정의
-const socialData = [
-  { id: 1, name: 'Discord', link: 'https://discord.com', Icon: DiscordIcon },
-  { id: 2, name: 'GitHub', link: 'https://github.com', Icon: GithubIcon },
-];
-
-// 2. map() 기법을 활용한 동적 컴포넌트 렌더링
-export default function App() {
-  return (
-    <div className="social-container">
-      {socialData.map((item) => (
-        <SocialItem key={item.id} name={item.name} link={item.link}>
-          <item.Icon size={24} color="#333" />
-        </SocialItem>
-      ))}
-    </div>
-  );
-}
-```
 
 ## 어려웠던 점 & 해결 과정
 - 문제: 빠르게 진행되는 강의와 빠르게 바뀌는 코드 화면, 방대한 정보들로 인해 집중도 하락 및 따라가기가 벅찼음
