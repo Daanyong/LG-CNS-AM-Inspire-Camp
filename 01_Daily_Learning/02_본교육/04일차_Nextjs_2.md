@@ -14,7 +14,7 @@
 - JS 호이스팅에서 `function` 선언문은 전체 스코프에서 이름이 미리 등록되지만, `const`/`let`은 초기화 전 실행 구간인 임시 사각지대(TDZ)에 걸려 `ReferenceError`가 발생한다. 
 - `<script type="module">`은 기본적으로 `defer`처럼 동작하여 HTML 파싱을 막지 않고 문서 파싱 완료 후 실행된다.
 
-# 기억에 남는 기타 내용들
+## 기억에 남는 기타 내용들
 - js나 html은 string이 근본 -> boolean도 `'true'`, `'false'`와 같이 표기하나 변수 개념이 아님
 - min.js (minimum - 로직은 그대로이나 코드 용량을 압도적으로 줄여버림)
 
