@@ -118,7 +118,7 @@
 ```text
 📂 LG-CNS-AM-Inspire-Camp
 ├── 📂 01_Daily_Learning/      # 사전학습 패키지 TIL(Today I Learned)
-├── 📂 02_FullStack_AI/        # Course 2: React, Spring, GenAI 기반 과제 및 실습
-├── 📂 03_AM_MSA_Cloud/        # Course 3: AWS, NCP, Docker, K8s, MSA 실습
+├── 📂 02_FrontEnd/            # Course 2: AI 서비스 개발을 위한 프론트엔드 과제 및 실습
+├── 📂 03_BackEnd/             # Course 3: AI 서비스 개발을 위한 백엔드 과제 및 실습
 ├── 📂 04_Ideathon/            # AI 활용 아이디어톤
 └── 📂 05_Final_Project/       # LG CNS 멘토링 기반 최종 AM 프로젝트
